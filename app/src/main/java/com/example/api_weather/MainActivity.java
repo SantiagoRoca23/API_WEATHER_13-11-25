@@ -81,6 +81,10 @@ public class MainActivity extends AppCompatActivity {
         tvPressure = findViewById(R.id.tvPressure);
         tvWind = findViewById(R.id.tvWind);
         tvVisibility = findViewById(R.id.tvVisibility);
+        
+        // Ocultar tarjeta y error al inicio
+        cardWeather.setVisibility(View.GONE);
+        tvError.setVisibility(View.GONE);
     }
 
     private void setupViewModel() {

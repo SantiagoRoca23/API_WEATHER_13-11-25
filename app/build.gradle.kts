@@ -43,6 +43,8 @@ dependencies {
     implementation(libs.retrofit)
     implementation(libs.retrofit.gson)
     implementation(libs.gson)
+    implementation(libs.okhttp)
+    implementation(libs.logging.interceptor)
     
     // ViewModel y LiveData
     implementation(libs.lifecycle.viewmodel)
